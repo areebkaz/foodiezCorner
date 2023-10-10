@@ -5,8 +5,9 @@ const { body, validationResult } = require('express-validator');
 
 const jwt = require('jsonwebtoken')
 const bcrypt = require('bcryptjs')
+require('dotenv').config(); 
 // secret key
-const jwtSecret = "theareebkazialearningmernstackno"
+const jwtSecret = process.env.REACT_APP_SECRET_KEY
 
 // Sign up
 router.post('/createuser',
