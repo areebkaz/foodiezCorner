@@ -29,4 +29,4 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-A simple food delivery WebApp which has login,signup fucntionality with JWT authorization and Add to Cart function and when u checkout it stores the orderitems in the backend and displays history on MyOrders components
+A simple food delivery WebApp which has login,signup functionality with JWT authorization and Add to Cart function and when u checkout it stores the orderitems in the backend and displays history on MyOrders components
